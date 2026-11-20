@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{helvet}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{minted}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage{algpseudocode}
+ \geometry{
+ letterpaper,
+ left=0.75in,
+ top=0.5in,
+ right=0.75in}
+%\thispagestyle{empty}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\newcommand{\grad}{\nabla}
+
+\renewcommand{\arraystretch}{1}
+%\newenvironment{\sin}[1]{•}
+\newcommand{\pfrac}[2]{\frac{\partial {#1}}{\partial {#2}}}
+\newcommand{\nodecost}[2]{J_{#1 \rightarrow #2}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\begin{document}
+\large
+\noindent \textbf{Final Project} \\ 
+\noindent \textbf{Author:} Jack Comey\\
+\noindent \textbf{Class:} C263A\\
+\noindent \textbf{UID:} 506635427\\
+
+\noindent \hrule
+
+\normalsize
+\tableofcontents
+
+\section{Design}
+
+\section{Forward Kinematics}
+
+\section{Inverse Kinematics}
+
+\section{Simulation - Matlab}
+
+\section{Simulation - MuJoCo}
+
+\end{document}
